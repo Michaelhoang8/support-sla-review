@@ -1,0 +1,8 @@
+{
+  "data/raw/sla_policy.csv": "0d049176245315af61af3c0ab59e0c9c12ab2805af282a69d8598f7c5c8ca89c",
+  "data/raw/teams.csv": "0ef169e21f675b1bf5004c578fbed0bc1629af34437300dce4433ea191beec6a",
+  "data/raw/ticket_snapshots.csv": "29db956b4b6c4826080a2d3db4617d1ab7a9b063d9f8a5d5ce7a5b3b9cf7fb6a",
+  "data/clean/sla_policy.csv": "0d049176245315af61af3c0ab59e0c9c12ab2805af282a69d8598f7c5c8ca89c",
+  "data/clean/teams.csv": "0ef169e21f675b1bf5004c578fbed0bc1629af34437300dce4433ea191beec6a",
+  "data/clean/tickets.csv": "2175e501202cb36aced4c6c57ebf70332a0cf64760bd1532e6abf1120e5d266b"
+}

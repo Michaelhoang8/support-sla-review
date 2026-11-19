@@ -1,0 +1,44 @@
+{
+  "capture_date": "2026-11-19",
+  "source": "Native Power BI Desktop on Windows",
+  "method": "Edited step walkthrough from actual screenshots; not continuous manual-authoring footage",
+  "seconds_per_frame": 6,
+  "frames": [
+    {
+      "path": "docs/screenshots/01_overview.png",
+      "title": "SLA overview",
+      "description": "6,000 tickets; 79.6% response attainment; 199 overdue open tickets.",
+      "sha256": "8a68289b18db2826911f74783c51a58bc1f8ea835487e8837e4a53280fc5a444"
+    },
+    {
+      "path": "docs/screenshots/02_priority_filter.png",
+      "title": "High-priority filter",
+      "description": "1,153 tickets; 56.3% response attainment; 37 overdue open.",
+      "sha256": "af1f64b252e6f7318eeded5e0d67576f1e3e866b8add57c7dae0a49b116bb063"
+    },
+    {
+      "path": "docs/screenshots/03_backlog.png",
+      "title": "Backlog and survey coverage",
+      "description": "227 unresolved tickets and 1,934 survey respondents; CSAT describes respondents only.",
+      "sha256": "60015ca2c6c56ec911f34c904ec9a140b9d5923a721e1fefedf9e3b774a747da"
+    },
+    {
+      "path": "docs/screenshots/04_relationships.png",
+      "title": "Relationships",
+      "description": "Team and priority-policy dimensions filter the ticket fact.",
+      "sha256": "a85f4de18d1544f4616a5d39770e8548c0d716dd759c33b60e2a3aacbcf61a0e"
+    },
+    {
+      "path": "docs/screenshots/05_clean_tickets.png",
+      "title": "Loaded tickets",
+      "description": "6,000 unique clean tickets loaded, with timestamps and eligibility flags.",
+      "sha256": "e06591ffaa0b3763831e33bbaa6e0d8569fb527a30438b1230827f57094cab48"
+    },
+    {
+      "path": "docs/screenshots/06_sla_policy.png",
+      "title": "Deadline policy",
+      "description": "High: 4/24 hours; Normal: 8/72; Low: 24/168. All use calendar hours.",
+      "sha256": "fae427c19cf7839e733e19af203a6fcbfc40ff26e2e05286461beb0f35cea3f8"
+    }
+  ]
+}

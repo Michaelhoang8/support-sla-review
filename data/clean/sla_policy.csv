@@ -1,0 +1,4 @@
+priority,response_sla_hours,resolution_sla_hours
+High,4,24
+Normal,8,72
+Low,24,168

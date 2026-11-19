@@ -1,0 +1,1 @@
+SELECT d.team,t.priority,COUNT(*) tickets,SUM(response_eligible) eligible,SUM(response_breach) breaches,1.0-SUM(response_breach)*1.0/SUM(response_eligible) response_attainment,SUM(overdue_open) overdue_open FROM tickets t JOIN teams d USING(team_id) GROUP BY d.team,t.priority ORDER BY d.team,t.priority

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "SupportSLA"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a4417de5-e22a-4f3f-8bb8-95e455e1c7bc"
+  }
+}

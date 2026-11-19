@@ -1,0 +1,26 @@
+// Format: #,0
+Tickets = COUNTROWS(tickets)
+
+// Format: #,0
+Response eligible = SUM(tickets[response_eligible])
+
+// Format: #,0
+Response breaches = SUM(tickets[response_breach])
+
+// Format: 0.0%
+Response SLA = DIVIDE([Response eligible]-[Response breaches],[Response eligible])
+
+// Format: 0.0%
+Resolution SLA = DIVIDE(SUM(tickets[resolution_eligible])-SUM(tickets[resolution_breach]),SUM(tickets[resolution_eligible]))
+
+// Format: #,0
+Open tickets = SUM(tickets[open_flag])
+
+// Format: #,0
+Overdue open = SUM(tickets[overdue_open])
+
+// Format: #,0
+Survey responses = SUM(tickets[csat_responded])
+
+// Format: 0.0%
+Positive CSAT = DIVIDE(SUM(tickets[csat_positive]),[Survey responses])

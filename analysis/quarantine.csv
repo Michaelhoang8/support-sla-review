@@ -1,0 +1,11 @@
+ticket_id,opened_at,first_response_at,resolved_at,team_id,priority,channel,csat,updated_at,reason
+BAD000,2025-08-27 03:11:00,2024-01-01,2025-08-28 10:24:00,1,Normal,Web form,,2026-01-01T00:00:00,Timestamp sequence invalid
+BAD001,2025-12-22 20:39:00,2024-01-01,2025-12-24 05:36:00,2,Low,Web form,,2026-01-01T00:00:00,Timestamp sequence invalid
+BAD002,2025-11-25 05:53:00,2024-01-01,2025-11-28 17:03:00,2,Normal,Email,,2026-01-01T00:00:00,Timestamp sequence invalid
+BAD003,2025-03-12 06:02:00,2024-01-01,2025-03-13 03:59:00,2,Normal,Email,,2026-01-01T00:00:00,Timestamp sequence invalid
+BAD004,2025-09-23 00:49:00,2024-01-01,2025-09-24 17:10:00,2,Low,Email,,2026-01-01T00:00:00,Timestamp sequence invalid
+BAD005,2025-01-30 04:56:00,2024-01-01,2025-01-31 02:55:00,1,Low,Chat,,2026-01-01T00:00:00,Timestamp sequence invalid
+BAD006,2025-10-19 05:06:00,2024-01-01,2025-10-24 05:33:00,2,Normal,Email,,2026-01-01T00:00:00,Timestamp sequence invalid
+BAD007,2025-01-29 00:36:00,2024-01-01,2025-01-29 06:49:00,1,Normal,Web form,5.0,2026-01-01T00:00:00,Timestamp sequence invalid
+BAD008,2025-11-01 12:29:00,2024-01-01,2025-11-03 03:17:00,1,Normal,Email,,2026-01-01T00:00:00,Timestamp sequence invalid
+BAD009,2025-04-13 00:11:00,2024-01-01,2025-04-13 15:12:00,2,Normal,Chat,,2026-01-01T00:00:00,Timestamp sequence invalid

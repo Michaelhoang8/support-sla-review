@@ -1,0 +1,1 @@
+SELECT CASE WHEN resolution_hours<=72 THEN 'Resolved within 72h' ELSE 'Resolved after 72h' END resolution_group,COUNT(*) resolved_tickets,SUM(csat_responded) responses,1.0*SUM(csat_responded)/COUNT(*) response_rate,1.0*SUM(csat_positive)/NULLIF(SUM(csat_responded),0) positive_rate FROM tickets WHERE open_flag=0 GROUP BY resolution_group ORDER BY resolution_group

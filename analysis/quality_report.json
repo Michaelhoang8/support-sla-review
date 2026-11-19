@@ -1,0 +1,11 @@
+{
+  "raw_snapshots": 6100,
+  "superseded_snapshots_removed": 90,
+  "quarantined_tickets": 10,
+  "clean_tickets": 6000,
+  "unmatured_response_tickets": 5,
+  "unmatured_resolution_tickets": 28,
+  "snapshot_utc": "2026-01-01T00:00:00",
+  "clock": "24x7 calendar hours, not business hours",
+  "seed": 90531
+}

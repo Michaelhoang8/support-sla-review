@@ -1,0 +1,12 @@
+team,age_band,open_tickets,overdue
+General,01 Under 24h,6,0
+General,02 24–72h,2,0
+General,03 72h–7d,1,1
+General,04 Over 7d,95,95
+Priority,01 Under 24h,4,0
+Priority,02 24–72h,2,1
+Priority,04 Over 7d,31,31
+Technical,01 Under 24h,4,0
+Technical,02 24–72h,10,0
+Technical,03 72h–7d,3,2
+Technical,04 Over 7d,69,69
